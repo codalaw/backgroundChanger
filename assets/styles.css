@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+    background-color: beige;
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;  /* Initial background color */
+    border: 1px solid #ccc;  /* Optional: for visualization */
+}
+
+#btn {
+    background-color: transparent;
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Bubblegum Sans", sans-serif;
+    border: 0px;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5%;
+}
+
+#btn:active {
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+#btn:hover {
+    cursor: pointer;
+}
